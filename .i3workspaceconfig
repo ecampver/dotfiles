@@ -1,0 +1,7 @@
+{
+    "classes": {
+        "gnome-terminal": "term",
+        "google-chrome": "chrome",
+        "brave-browser": "brave"
+    }
+}

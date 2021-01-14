@@ -1,0 +1,8 @@
+[alias]
+	co = checkout
+	st = status
+	d = diff
+	ds = diff --staged
+  pwl = push --force-with-lease
+[core]
+	editor = vim
