@@ -53,7 +53,7 @@ neovim() {
   npm install -g neovim
 
   sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-         #https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   nvim +PlugInstall +qall
 }
 
@@ -80,7 +80,7 @@ ohmyzsh() {
 
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
-  printf 'Set zsh as default shell...\n'
+  printf "${MSG_COLOR}Set zsh as default shell\n$NC"
   chsh -s $(which zsh)
 }
 
